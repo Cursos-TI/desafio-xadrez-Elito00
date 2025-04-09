@@ -21,6 +21,15 @@ int main() {
         printf("Cima Direita\n");
         i++;
     }
+  // Movimentação da Rainha usando do-while
+    // Rainha se move 8 casas para a esquerda
+    printf("\nMovimento da Rainha:\n");
+    int j = 0;
+    do {
+        printf("Esquerda\n");
+        j++;
+    } while (j < Rainha);
 
     return 0;
 }
+
