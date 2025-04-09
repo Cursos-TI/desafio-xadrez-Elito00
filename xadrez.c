@@ -19,7 +19,8 @@ int main() {
     int i = 0;
     while (i < Bispo) {
         printf("Cima Direita\n");
-
+        i++;
+    }
 
     return 0;
 }
